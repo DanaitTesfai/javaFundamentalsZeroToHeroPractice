@@ -1,0 +1,116 @@
+First create a package for operators
+
+Create a class named OperatorsDemo
+
+Declare two variables a and b int type and perform arithmetic operations
+on them and print out the result
+
+Perform some comparison operations and output the result.
+Hint result of comparison or relational operations is always a boolean value.
+
+Declare two variables x and y which are int
+Declare a third variable to hold the result of various increment/decrement operations
+1. perform x++ + --y and store the result in result variable and discuss over the result
+before your print it and finally print all variables x, y and result
+
+Similar operation: ++x + y++ + --y
+-----------------------------------------------------------------------
+
+
+
+1. Gym Monthly Billing
+Description:
+A gym charges $30 per month. If a member subscribes for more than 6 months,
+they receive a $20 discount. Use arithmetic, assignment, and relational operators.
+
+Instructions:
+Declare variables for months and monthlyFee.
+
+Calculate the total bill.
+
+Apply a discount if months > 6.
+
+Concepts: Arithmetic (*), Assignment (=), Relational (>)
+Sample Output:
+Enter number of months: 8
+Total before discount: $240
+Discount applied: $20
+Final total: $220
+------------------------------------------------------------------------------
+
+
+2. Hotel Room Booking
+   Description:
+   A hotel charges $120 per night. If a guest stays more than 3 nights,
+   apply a 15% discount. Use arithmetic, assignment, relational, and shorthand operators.
+
+   Instructions:
+   Ask user for number of nights.
+
+   Multiply by nightly rate.
+
+   If nights > 3, apply 15% discount.
+
+   Concepts: Arithmetic, Relational, Shorthand Assignment (*=)
+   Sample Output:
+
+   Enter number of nights: 4
+   Total before discount: $480.0
+   Discount: 15%
+   Total after discount: $408.0
+   ---------------------------------------------------------------------------
+
+   3. Restaurant Bill Calculator
+      Description:
+      A restaurant adds 10% service charge to total meal cost.
+      Then it checks if the total bill exceeds $200 to suggest card payment.
+
+      Instructions:
+      Use arithmetic to calculate 10% of total.
+
+      Add it to total.
+
+      Compare result using > operator.
+
+      Concepts: Arithmetic, Assignment, Relational
+      Sample Output:
+
+      Meal Cost: $180
+      Service Charge: $18.0
+      Total Bill: $198.0
+      Pay by: Cash
+      -----------------------------------------------------------------
+
+
+      4. Student Result Evaluator
+         Description:
+         A student passes if they score at least 50 in Math and Science.
+         Use logical AND and ternary operator to print pass/fail.
+
+          Instructions:
+         Declare two subject marks.
+
+         Use && and ternary operator.
+
+         Concepts: Logical (&&), Ternary
+         Sample Output:
+
+         Math: 60
+         Science: 48
+         Result: Fail
+         ---------------------------------------------------------------------
+
+         5. Warehouse Stock Update
+            🔹 Description:
+            A warehouse receives new stock. The quantity is increased using the += operator.
+             Instructions:
+            Set initial stock.
+
+            Add received items with +=.
+
+            Concepts: Shorthand Assignment (+=)
+            Sample Output:
+            Initial stock: 100
+            Received: 40
+            Updated stock: 140
+

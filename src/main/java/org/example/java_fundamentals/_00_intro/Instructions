@@ -1,0 +1,26 @@
+1. Create a file named PrintName.java
+
+2. Add a class named PrintName
+
+3. Inside the main method, print your name
+
+------------------------------------------------------
+
+Create a class named Intro
+
+In the main method, print your name and age on separate lines
+
+--------------------------------------------------------
+
+
+ Write a Java program that asks the user to input their name and age,
+ then prints a sentence using those values.
+
+        Expected Output:
+
+
+        Enter your name: Danait
+        Enter your age: 25
+        Hello Danait, you are 25 years old.
+
+-----------------------------------------------------------

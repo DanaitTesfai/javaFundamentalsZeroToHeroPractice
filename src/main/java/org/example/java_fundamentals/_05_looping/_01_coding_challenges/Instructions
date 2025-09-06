@@ -1,0 +1,112 @@
+1.  Goal: Print numbers from 1 to N on one line, space-separated.
+Steps:
+
+Read integer N (assume N ≥ 1).
+
+Use a for loop from i = 1 to i <= N.
+
+Print i followed by a space (don’t add a newline until the end).
+
+After the loop, print a newline.
+--------------------------
+
+2. Sum 1 to N
+   Goal: Compute the sum 1 + 2 + … + N.
+   Steps:
+
+   Read N.
+
+   Initialize sum = 0.
+
+   Loop i from 1 to N (inclusive).
+
+   Add i to sum each iteration.
+
+   Print sum.
+----------------------------
+3. Even Numbers Up To N
+   Goal: Print all even numbers from 2 to N.
+   Steps:
+
+   Read N.
+
+   Use a for loop starting at i = 2; step by i += 2 while i <= N.
+
+   Print i each time.
+   -----------------------------
+   4.Multiplication Table of a Number
+     Goal: Print the table of X from X×1 to X×10.
+     Steps:
+
+     Read X.
+
+     Loop i from 1 to 10.
+
+     Print X + " x " + i + " = " + (X * i).
+     ---------------------------------------------
+     5. Goal: Print numbers from N down to 1.
+        Steps:
+
+        Read N.
+
+        Use a while loop with i = N and decrement i-- until i >= 1.
+
+        Print i each iteration.
+        -----------------------------------
+
+6. 1. Print numbers 1 to 10
+6. 2. Stop when number is 5 (use break)
+6. 3. Skip number 5 (use continue)
+6. 4. Sum of first 10 numbers
+6. 5. Print even numbers only. Exercise: Use a while loop and continue to print only
+      even numbers from 1 to 20.
+      ---------------------------------
+
+ 7.  1. Greeting message
+    Exercise: Concatenate two strings "Hello" and "World" with a space between them.
+ 7.  2. Exercise: Concatenate numbers into one string: "1 2 3 4 5".
+ 7.  3. Exercise: Concatenate "Java " 5 times.
+------------------------------------------------------------
+
+8. Factorial of a number
+
+   Question: Ask the user for a number and calculate its factorial.
+   Examples:
+
+   if n is a number then its factorial is calculated as follows : n * (n-1) * (n-2) * ....(n-n+1)
+   Let n = 5 then factorial of 5 is calculated : 5 * 4 * 3 * 2 * 1 = 120
+   let n = 7 then calculate its factorial : 7 * 6 * 5 * 4 * 3 * 2 * 1 = 5040
+----------------------------------------------------------------
+
+9. Reverse a number
+
+   Question: Ask the user for a number and print it in reverse
+   number = 123
+   hint: % modulus operator could be used to get the last digit number
+   int reverseNumber = 0;
+
+   int lastDigit = number % 10 ---> 123 % 10 = 3 is the remainder
+   reverseNumber = reverseNumber * 10 + lastDigit ----> reverseNumber = 0 *10 + 3 = 3
+   number /= 10-----> number =number / 10 = 123/10=12
+   number = 12, reverseNumber = 3
+
+
+   int lastDigit = number % 10 ---> 12 % 10 = 2 is the remainder
+   reverseNumber = reverseNumber * 10 + lastDigit ----> reverseNumber = 3*10 + 2= 32
+   number /= 10-----> number =number / 10 = 12/10=1
+   number = 1, reverseNumber = 32
+
+
+   int lastDigit = number % 10 ---> 1 % 10 = 1 is the remainder
+   reverseNumber = reverseNumber * 10 + lastDigit ----> reverseNumber = 32*10 + 1= 321
+   number /= 10-----> number =number / 10 = 1/10=0
+   number = 0, reverseNumber = 321
+   -------------------------------------------------
+10. Read two integers and print which one is larger (use if).
+
+------------------------------------------------------------
+11. Largest of Three Numbers
+       Read three integers and print the largest one.
+-------------------------------------------------------
+12. Sum of Digits
+   Given a number like 1234, calculate 1+2+3+4 = 10

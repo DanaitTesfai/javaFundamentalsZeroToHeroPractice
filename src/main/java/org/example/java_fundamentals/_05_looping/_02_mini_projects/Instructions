@@ -1,0 +1,280 @@
+1.Hotel Billing System with Multiple Guests (Loops, Casting, and String Methods)
+
+              Scenario (Instruction to Student):
+              A hotel wants to upgrade its billing program so that it can handle multiple
+              guests in one run. The system should ask the user how many guests they want
+               to process, then use a loop to repeat the billing process for each guest.
+
+              For each guest, collect:
+
+              Guest’s name
+
+              Number of nights
+
+              Nightly rate
+
+              The system will calculate the total cost and display the bill summary
+               in uppercase using string methods. Use casting where needed
+               (e.g., rounding total amount to two decimal places).
+
+              After processing all guests, the program should display the total income
+              for the day.
+
+
+
+              === Hotel Billing System ===
+              How many guests today? 2
+
+              --- Guest #1 ---
+              Enter guest name: Marta
+              Enter number of nights: 3
+              Enter price per night: 49.99
+
+              --- BILL SUMMARY ---
+              Customer: MARTA
+              Nights: 3
+              Nightly Rate: $49.99
+              Total amount: $149.97
+
+              --- Guest #2 ---
+              Enter guest name: Paul
+              Enter number of nights: 2
+              Enter price per night: 60.00
+
+              --- BILL SUMMARY ---
+              Customer: PAUL
+              Nights: 2
+              Nightly Rate: $60.00
+              Total amount: $120.00
+
+              === END OF DAY REPORT ===
+              Total income: $269.97
+--------------------------------------------------------------------------------
+2. Restaurant Ordering Menu
+         Description:
+         A waiter uses a simple console program to take burger orders, calculate the bill,
+         and automatically add a tip based on the bill amount.
+
+
+
+         Sample Output (Example Run):
+
+
+
+         === Welcome to Java Dine ===
+         Profile: Waiter Order System
+
+          Case 1: Viewing the Menu
+
+         1. View Menu
+         2. Place an Order
+         3. Exit
+         Enter your choice: 1
+
+         --- Menu ---
+         Burger : $8
+         Pizza  : $15
+         Pasta  : $12
+
+         Case 2: Placing an Order
+
+         1. View Menu
+         2. Place an Order
+         3. Exit
+         Enter your choice: 2
+         Enter item (burger/pizza/pasta): burger
+         Enter quantity: 3
+         You ordered: 3 burger
+         Total price: $24.0
+
+         Case 3: Exiting the Program
+
+         1. View Menu
+         2. Place an Order
+         3. Exit
+         Enter your choice: 3
+         Thank you for visiting Java Dine. Goodbye!
+
+         Case 4: Invalid Option
+
+         1. View Menu
+         2. Place an Order
+         3. Exit
+         Enter your choice: 5
+         Invalid choice!
+
+Additional task 1- When they choose to exit, the program should display the total income
+from all orders.
+                  Total Income from Orders: $31.0
+
+Additional task 2- After exiting, the program should display a summary of the total quantity
+and total price for each item, along with the total income from all orders.
+
+                   Example Scenario:
+
+                   The customer orders 2 Burgers, 2 Pizzas, and 1 Pasta.
+
+                   After exiting, the program displays:
+
+
+                   === Order Summary ===
+                   Burger: 2 x $8.0 = $16.0
+                   Pizza: 2 x $15.0 = $30.0
+                   Pasta: 1 x $12.0 = $12.0
+                   Total Income from Orders: $58.0
+
+-----------------------------------------------------------------------
+3. Gym Membership Booking System
+
+     A gym wants to create a Java program to manage membership registrations.
+     The gym offers three membership plans:
+
+     Basic Membership: $30 per month
+
+     Premium Membership: $50 per month
+
+     VIP Membership: $80 per month
+
+     The program should:
+
+     Display a menu with the following options:
+
+     View Membership Prices
+
+     Register for Membership
+
+     Exit
+
+     If the user chooses 1, the program should display all membership prices.
+
+     If the user chooses 2, the program should:
+
+     Ask the user for the membership type (basic, premium, or vip).
+
+     Ask for the number of months they want to register.
+
+     Apply the membership rate accordingly.
+
+     If the user registers for more than 6 months, they get a 10% discount on the total.
+
+     Display the final bill.
+
+     The menu should keep showing again and again (using looping) until the user chooses 3 (Exit).
+
+     When the user exits, display a summary report:
+
+     Total Basic Memberships sold and total income from them.
+
+     Total Premium Memberships sold and total income from them.
+
+     Total VIP Memberships sold and total income from them.
+
+     Overall income from all memberships.
+
+     === Welcome to FitLife Gym ===
+     1. View Membership Prices
+     2. Register for Membership
+     3. Exit
+     Enter your choice: 1
+
+     Basic: $30/month
+     Premium: $50/month
+     VIP: $80/month
+
+     === Welcome to FitLife Gym ===
+     1. View Membership Prices
+     2. Register for Membership
+     3. Exit
+     Enter your choice: 2
+
+     Enter membership type (basic/premium/vip): vip
+     Enter number of months: 8
+     Discount applied: $64.0
+     Final Price: $576.0
+
+     === Welcome to FitLife Gym ===
+     1. View Membership Prices
+     2. Register for Membership
+     3. Exit
+     Enter your choice: 3
+
+     === Membership Summary ===
+     Basic: 0 months, Total = $0.0
+     Premium: 0 months, Total = $0.0
+     VIP: 8 months, Total = $576.0
+     ----------------------------
+     Total Income = $576.0
+     Thank you for choosing FitLife Gym!
+ -------------------------------------------------------------------------------
+
+ 4. Car Rental System Question
+    A company named EasyCar Rentals wants to build a simple console-based car rental system
+    in Java.
+    They want to allow customers to:
+
+    View available cars and their daily rental prices.
+
+    Sedan → $50 per day
+
+    SUV → $80 per day
+
+    Luxury Car → $120 per day
+
+    Rent a car by entering:
+
+    Car type (sedan, suv, or luxury)
+
+    Number of cars
+
+    Number of rental days
+
+    Get the rental cost immediately after each order.
+
+    Sedan → no discount
+
+    SUV → 10% discount if rented for more than 7 days
+
+    Luxury → 15% discount if rented for more than 7 days
+
+    Exit and show summary of all rentals, including:
+
+    Total number of each car rented
+
+    Income from each car type
+
+    Total income from all rentals
+
+    The program should run continuously using while(true) loop until the user chooses Exit.
+
+
+
+    === Welcome to EasyCar Rentals ===
+    1. View Available Cars
+    2. Rent a Car
+    3. Exit and Show Summary
+    Enter choice: 1
+    Sedan: $50 per day
+    SUV: $80 per day
+    Luxury Car: $120 per day
+
+    === Welcome to EasyCar Rentals ===
+    1. View Available Cars
+    2. Rent a Car
+    3. Exit and Show Summary
+    Enter choice: 2
+    Enter car type (sedan/suv/luxury): luxury
+    Enter number of cars: 1
+    Enter rental days: 8
+    Total Rental Cost: $816.0
+
+    === Welcome to EasyCar Rentals ===
+    1. View Available Cars
+    2. Rent a Car
+    3. Exit and Show Summary
+    Enter choice: 3
+
+    === Rental Summary ===
+    Sedans rented: 0, Income: $0.0
+    SUVs rented: 0, Income: $0.0
+    Luxury Cars rented: 1, Income: $816.0
+    Total Income = $816.0
