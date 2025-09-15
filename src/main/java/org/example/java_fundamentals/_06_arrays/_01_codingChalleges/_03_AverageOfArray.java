@@ -10,6 +10,6 @@ public class _03_AverageOfArray {
             result += i < array.length - 1 ? array[i] + " + " : array[i] ;
             sum += array[i];
         }
-        System.out.println(result + "/" + array.length + " = " + (sum/array.length));
+        System.out.println(result + " / " + array.length + " = " + (sum/array.length));
     }
 }
