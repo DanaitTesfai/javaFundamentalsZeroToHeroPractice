@@ -30,8 +30,10 @@ int[][] marks = {{85,90,78}, {68,97,82}, {90,61,89}};
 5. Student Marks with Scanner
 
    Scenario:
-   A teacher wants to store marks of 2 students in 3 subjects using a 2D array.
-   The marks should be entered by the user, and then displayed in a table format.
+   A teacher wants to store marks of 2 students in 3 subjects using
+    a 2D array.
+   The marks should be entered by the user, and then displayed in
+   a table format.
 
    Hint:
    We can declare 2 by 3 2D array as follows
@@ -56,7 +58,8 @@ int[][] marks = {{85,90,78}, {68,97,82}, {90,61,89}};
 ------------------------------------------------------------------
 6.Interactive Student Marks System
   Scenario:
-  A teacher wants to manage student marks in a flexible way. The program should:
+  A teacher wants to manage student marks in a flexible way.
+  The program should:
 
   Ask how many students are in the class.
 
