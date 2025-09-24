@@ -76,7 +76,8 @@ Available: true
 --------------------------------------------
 3. Class: Student
 Scenario:
-Create a Student class to store information about a student and their actions.
+Create a Student class to store information about a student and
+their actions.
 
 Requirements:
 
