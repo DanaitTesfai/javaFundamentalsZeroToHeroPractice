@@ -29,7 +29,7 @@ public class BankAccountRunner {
                 bankAccount.deposit(amount);
 
             } else if (choice==2) {
-                System.out.println("Enter withdrawal amount: ");
+                System.out.print("Enter withdrawal amount: ");
                 double amount = sc.nextDouble();
                 bankAccount.withdraw(amount);
 
