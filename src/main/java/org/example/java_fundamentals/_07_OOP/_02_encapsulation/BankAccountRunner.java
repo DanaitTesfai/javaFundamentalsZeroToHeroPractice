@@ -1,7 +1,5 @@
 package org.example.java_fundamentals._07_OOP._02_encapsulation;
 
-import org.example.java_fundamentals._07_OOP._01_classesAndObjects._04_bankAccount.BankAccount;
-
 import java.util.Scanner;
 import java.util.SimpleTimeZone;
 
