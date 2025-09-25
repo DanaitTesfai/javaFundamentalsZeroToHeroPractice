@@ -11,7 +11,7 @@ public class StudentRunner {
         String name = input.nextLine();
         student.setName(name);
 
-        System.out.println("Enter student age: ");
+        System.out.print("Enter student age: ");
         int age = input.nextInt();
         student.setAge(age);
 

@@ -26,6 +26,7 @@ public class Student {
     }
 
     public void studentProfile() {
+        System.out.println("--- Student Profile ---");
         System.out.println("Student Name: " + name);
         System.out.println("Student Age: " + age);
     }
