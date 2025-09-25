@@ -23,6 +23,15 @@ public class FavoriteFoods {
         System.out.println(foods);
 
 
+        isRemoved = foods.remove("burger");
+        if (isRemoved){
+            System.out.println("Item removed successfully.");
+        }else {
+            System.out.println("Item can not be found.");
+        }
+        System.out.println(foods);
+
+
     }
 
 }
