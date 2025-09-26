@@ -79,4 +79,86 @@ If found, print the product details, else print "Product not found!".
   Enter a book title to search: Clean Code
   Book with title "Clean Code" found: ID: 104, Author: Robert Martin
 
+----------------------------------------------------------------------
+3.Scenario: Gym Membership Management System
+  Story
+  The local FlexFit Gym wants a basic system to manage their members.
+
+  The gym needs to:
+
+  1. Register new members when they join.
+
+  2. View a list of all current members.
+
+  3. Update a member's name if they change it.
+
+  4. Delete a member when they cancel their membership.
+
+  5. Exit the system safely.
+
+  Each member will have:
+
+  ID (unique number)
+
+  Name (String)
+
+  Membership Type (String) → "Monthly", "Yearly", etc.
+
+  Step 1. Create the GymMember Class
+  Encapsulation is applied here:
+
+  Private fields
+
+  Getters and setters
+
+  Constructor
+
+  toString() for easy printing
+
+  Step 2. Build the Menu in GymApp
+  We'll have an ArrayList<GymMember> to store members dynamically and
+  a while loop for the menu.
+
+  === Gym Membership Menu ===
+  1. Add Member
+  2. View Members
+  3. Update Member Name
+  4. Delete Member
+  5. Exit
+  Choose an option: 1
+  Enter member ID: 101
+  Enter member name: John
+  Enter membership type (Monthly/Yearly): Monthly
+  Member added successfully!
+
+  === Gym Membership Menu ===
+  Choose an option: 2
+
+  === List of Gym Members ===
+  ID: 101, Name: John, Membership: Monthly
+
+  === Gym Membership Menu ===
+  Choose an option: 3
+  Enter member ID to update: 101
+  Enter new name: Johnny
+  Member name updated successfully!
+
+  === Gym Membership Menu ===
+  Choose an option: 2
+
+  === List of Gym Members ===
+  ID: 101, Name: Johnny, Membership: Monthly
+
+  === Gym Membership Menu ===
+  Choose an option: 4
+  Enter member ID to delete: 101
+  Member deleted successfully!
+
+  === Gym Membership Menu ===
+  Choose an option: 5
+  Goodbye! Stay fit!
+
+
+
+
 
