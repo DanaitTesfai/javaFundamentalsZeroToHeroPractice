@@ -1,4 +1,4 @@
-package org.example.java_fundamentals._08_arrayLists._03_gymMember;
+package org.example.java_fundamentals._07_OOP._03_arrayLists._04_gymMember;
 
 public class GymMember {
     private int id;

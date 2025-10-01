@@ -1,4 +1,4 @@
-package org.example.java_fundamentals._08_arrayLists._02_book;
+package org.example.java_fundamentals._07_OOP._03_arrayLists._03_book;
 
 import java.util.ArrayList;
 import java.util.Scanner;
