@@ -67,13 +67,12 @@ public class GymApp {
                         System.out.print("Enter new name: ");
                         String newName = sc.nextLine();
                         g.setName(newName);
+                        System.out.println("Member name updated successfully!");
                         isFound = true;
                         break;
                     }
                 }
-                if (isFound){
-                    System.out.println("Member name updated successfully!");
-                }else {
+                if (!isFound){
                     System.out.println("Member with ID " + updateId +" not found.");
                 }
 
