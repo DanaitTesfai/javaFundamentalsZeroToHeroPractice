@@ -84,15 +84,15 @@ Create Validation:
 
 Create Menu:
 
-ArrayList<Student> students = new ArrayList<>();
+    ArrayList<Student> students = new ArrayList<>();
 
-Switch menu: Register, View All, Search by ID, Exit
+    Switch menu: Register, View All, Search by ID, Exit
 
-On Register → choose type (Undergrad/Grad) → collect inputs → validate → build object → prevent duplicates with contains()
+    On Register → choose type (Undergrad/Grad) → collect inputs → validate → build object → prevent duplicates with contains()
 
 Create Main:
 
-If login ok → show menu; else exit.
+    If login ok → show menu; else exit.
 
    Sample Console Run
 ===== School Admin Login =====
