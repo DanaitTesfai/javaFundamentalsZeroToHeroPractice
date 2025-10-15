@@ -1,0 +1,145 @@
+1. Create a simple interface
+  Question:
+  Create an interface called Animal with a method makeSound().
+  Create two classes Dog and Cat that implement Animal and print
+  different sounds.
+
+  Expected Output:
+
+  Dog barks
+  Cat meows
+-------------------------------------------------------------------
+
+Q2: Interface with Constant Variable
+Goal: Learn how constants work in interfaces.
+
+Instructions:
+
+Create interface Bank with constant RATE = 5.0.
+
+Create class SBI that prints the rate.
+-----------------------------------------------------------------
+
+Q3: Default Method in Interface
+Goal: Understand default methods (introduced in Java 8).
+
+Instructions:
+
+Create interface Vehicle with:
+
+void start();
+
+default void stop();
+
+Implement in class Car.
+
+output:
+Car started.
+Vehicle stopped.
+--------------------------------------------------------------------
+
+Q4: Multiple Interfaces
+Goal: Learn multiple inheritance through interfaces.
+
+Instructions:
+
+Create Flyable and Swimmable interfaces.
+
+Create Duck class that implements both.
+
+Duck flying
+Duck swimming
+-------------------------------------------------------------------
+
+Q5: Interface Reference, Different Classes
+Goal: Show polymorphism using an interface reference.
+
+Instructions:
+
+Create interface Playable with play().
+
+Create Football and Piano classes.
+
+Call both using Playable reference.
+
+Playing Football
+Playing Piano
+--------------------------------------------------------------
+
+Q6: Interface Array (Polymorphic Behavior)
+Goal: Use interface objects inside an array.
+
+Create interface shape with draw().
+
+Create Circle and Rectangle classes.
+
+Create an array of Shapes with different implementations
+and print them
+-------------------------------------------------------------
+
+7. Calculator Using Interface & User Input
+   Goal: Let the user choose an operation (Add/Subtract) using interface.
+
+   Instructions:
+
+   Create Operation interface with calculate(int a, int b).
+
+   Create AddOperation and SubtractOperation.
+
+   Ask user using Scanner which operation to perform.
+---------------------------------------------------------------------
+
+8.Payment System (Interface + Amount Input)
+  Goal
+  Use an interface to represent payment behavior and let the user choose UPI or Card at runtime.
+
+  What You’ll Build
+  Payment interface → void pay(double amount)
+
+  UpiPayment and CardPayment implement Payment
+
+  Ask user for amount + payment type → print confirmation
+
+  Step-by-Step
+      Create Payment interface with void pay(double amount);
+
+      Class UpiPayment implements Payment and prints "Paid X via UPI".
+
+      Class CardPayment implements Payment and prints "Paid X via Credit Card".
+
+      In main, ask for double amount.
+
+      Ask for method: 1. UPI 2. Card
+
+      Create Payment payment based on choice, then call payment.pay(amount).
+
+      Enter amount: 300
+      Choose payment method: 1. UPI  2. Card
+      2
+      Paid 300.0 via Credit Card
+
+
+  8.1  Enter amount to pay: 500
+       Select Payment Method:
+       1️⃣ UPI
+       2️⃣ Debit/Credit Card
+       3️⃣ Mobile Wallet
+       4️⃣ Net Banking
+       Enter choice: 1
+       Paid 500.0 via UPI
+
+       Enter amount to pay: 1200
+       Select Payment Method:
+       1️⃣ UPI
+       2️⃣ Debit/Credit Card
+       3️⃣ Mobile Wallet
+       4️⃣ Net Banking
+       Enter choice: 2
+       Paid 1200.0 via Credit/Debit Card
+
+       Enter amount to pay: -100
+       ❌ Invalid amount. Please enter a positive amount.
+
+
+8.2 Loop it
+---------------------------------------------------------------

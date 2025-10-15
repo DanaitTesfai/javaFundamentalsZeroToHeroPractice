@@ -1,4 +1,4 @@
-package org.example.java_fundamentals._07_OOP._06_inheritance._02_multilevelInheritance;
+package org.example.java_fundamentals._07_OOP._06_inheritanceAndPolymorphism._02_multilevelInheritance;
 
 public class AnimalRunner {
     public static void main(String[] args) {

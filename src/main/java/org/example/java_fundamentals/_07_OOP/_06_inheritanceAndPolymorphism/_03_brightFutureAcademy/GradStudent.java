@@ -1,4 +1,4 @@
-package org.example.java_fundamentals._07_OOP._06_inheritance._03_brightFutureAcademy;
+package org.example.java_fundamentals._07_OOP._06_inheritanceAndPolymorphism._03_brightFutureAcademy;
 
 public class GradStudent extends Student{
     private String thesisTitle;
